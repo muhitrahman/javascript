@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+   
+    <link rel="stylesheet" href="../css/todoStyle.css">
+	<title>My online todo app</title>
+</head>
+
+<body>
+	<div class="container-fluid text-center">
+        <h1>My toDo</h1>
+        <h1 class="blink"></h1>
+<!--        <input type="text" id="userinput" class="form-control" placeholder="your daily action" onkeydown="return searchKeyPress(event);">-->
+        <input type="text" id="userinput" class="form-control" placeholder="your daily action" onkeydown="return searchKeyPress(event);">
+<!--        <input type="text" id="userinput" class="form-control" placeholder="your daily action">-->
+        <button class="btn btn-success" id="add"> Add toDo</button>
+        <button class="btn btn-danger" id="removeall">Remove toDo</button>
+        <ul id="list">My toDo list<button class="btn btn-xs btn-danger">&times;</button></ul>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="../js/typed.js"></script>
+	<script src="../js/todo.js"></script>
+
+</body>
+</html>

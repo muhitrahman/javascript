@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    height: 33.33vh;
+    width: 100vw;
+}
+#bottle, #red, #green{
+    height: 100%;
+}
+#bottle{
+    background-color: #006a4e;
+}
+
+/*/////////////flexbox text cetering is the best///////////*/
+#red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#green{
+    background-color: #006a4e;
+    
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
