@@ -1,7 +1,7 @@
 # javascript
 
 
-<img src="ranPass.PNG>
+<img src="ranPass.PNG">
           
          
 ## Javascript projects and exercises  
